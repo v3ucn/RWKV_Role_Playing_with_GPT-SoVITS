@@ -1,0 +1,126 @@
+.warn_btn {
+  background: #CC0000 !important;
+}
+
+.chat {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  height: 60vh;
+  overflow-y: auto;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column-reverse;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+.message {
+  display: flex;
+  padding-bottom: 25px;
+  font-size: 15px;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.428571429;
+}
+
+.message p{
+  line-height: 1.428571429 !important;
+  margin-bottom: 0px !important;
+}
+
+.message_c {
+  justify-content: flex-start;
+}
+
+.message_m {
+  justify-content: flex-end;
+}
+
+.text_c {
+  margin-left: 8px; 
+}
+
+.message-body {
+  padding: 10px;
+}
+
+.message-body pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-size: 12px;
+  font-family: Helvetica, Arial, sans-serif;
+  border-radius: 12px;
+  background-color: #333;
+  padding: 8px;
+  margin-top: 8px;
+}
+
+.message-body-c {
+  border-color: #e5e7eb;
+  border-radius: 0 22px 22px 22px;
+  background-color: #f9fafb;
+  color: #FFB7C5 !important;
+}
+
+.dark .message-body-c {
+  border-color: #374151;
+  border-radius: 0 22px 22px 22px;
+  background-color: #111827;
+  color: #FFB7C5 !important;
+}
+
+.dark .message-body-c em {
+  color: #999 !important;
+  margin-bottom: 0px !important;
+  font-style: normal;
+}
+
+.message-body-m {
+  border-color: #fdba74;
+  border-radius: 22px 0 22px 22px;
+  background-color: #fff7ed;
+  color: orange !important;
+}
+
+.dark .message-body-m {
+  border-color: #4b5563;
+  border-radius: 22px 0 22px 22px;
+  background-color: #374151;
+  color: orange !important;
+}
+
+.dark .message-body-m em {
+  color: #999 !important;
+  margin-bottom: 0px !important;
+  font-style: normal;
+}
+
+.circle-bot {
+  flex: 0 0 50px;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(238, 78, 59);
+  border-radius: 50%;
+}
+
+.circle-bot img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.username .turn {
+  font-weight: 400;
+  color: #bbb;
+  font-size: 12px;
+  margin-left: 4px;
+}
+
+.username-m {
+  text-align: right;
+}
