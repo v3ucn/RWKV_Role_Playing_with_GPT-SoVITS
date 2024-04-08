@@ -1,3 +1,5 @@
+基于：https://github.com/shengxia/RWKV_Role_Playing  添加了GPT-SoVITS语音对话
+
 没有显卡？显存不足？内存不足？环境不会配置？现在都不用怕了，直接白嫖Google Colab吧！
 
 ## [点击这里快速到达](https://colab.research.google.com/drive/19cKRLE6WBVoVK1cHPNuc3KvmeQ9TO19G#scrollTo=t4daxu3L1Rbi)
